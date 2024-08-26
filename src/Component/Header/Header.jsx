@@ -6,9 +6,9 @@ const Header = () => {
     <>
       <header class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <Link to="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <span class="ml-3 text-xl">Hema Esther</span>
-          </a>
+          </Link>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <Link to="/" class="mr-5 hover:text-white">Home</Link>
             <Link to="/about" class="mr-5 hover:text-white">About</Link>

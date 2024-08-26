@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               HEMA ESTHER SHAH
               <br class="hidden lg:inline-block" />
-              <span className="text-lg">Coder | Developer | Problem Solver</span>
+              <span className="text-lg">
+                Coder | Developer | Problem Solver
+              </span>
             </h1>
             <p class="mb-8 leading-relaxed">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
@@ -18,19 +21,23 @@ const Home = () => {
               truffaut hexagon try-hard chambray.
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                See my Resume
+              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <a href="/resume.pdf" target="_blank" >
+                  See my Resume
+                </a>
               </button>
               <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                <a href="/contact">
                 Contact
+                </a>
               </button>
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              class="object-cover object-center rounded"
+              class="object-cover object-center rounded w-72"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src="../../../public/hema.jpeg"
             />
           </div>
         </div>

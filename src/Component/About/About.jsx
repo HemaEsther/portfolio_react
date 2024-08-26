@@ -21,12 +21,10 @@ const About = () => {
               <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src="../../../public/nitjsr.jpg"
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                  SUBTITLE
-                </h3>
+                
                 <h2 class="text-lg text-white font-medium title-font mb-4">
                   MCA
                 </h2>
@@ -40,12 +38,10 @@ const About = () => {
               <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/721x401"
+                  src="/kukuniv.jpg"
                   alt="content"
                 />
-                <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                  SUBTITLE
-                </h3>
+                
                 <h2 class="text-lg text-white font-medium title-font mb-4">
                   BCA
                 </h2>
