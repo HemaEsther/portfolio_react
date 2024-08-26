@@ -23,7 +23,7 @@ const Projects = () => {
                   Glossier echo park pug, church-key sartorial biodiesel
                   vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
                   moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  lumbersexual pork b
                 </p>
                 <Link to="https://github.com/HemaEsther/TicTacToe_react" class="text-indigo-400 inline-flex items-center mt-4" target="_blank">
                   Github Link
